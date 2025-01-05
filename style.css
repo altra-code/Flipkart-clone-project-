@@ -1,0 +1,388 @@
+@import url('https://fonts.google.com?css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* -webkit-box-shadow: -2px 0px 3px 1px rgba(222, 222, 222, 1);
+-moz-box-shadow: -2px 0px 3px 1px rgba(222, 222, 222, 1);
+box-shadow: -2px 0px 3px 1px rgba(222, 222, 222, 1); */
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:box-border;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: #f1f2f4;
+}
+
+.container{
+  max-width:1300px;
+  margin:auto;
+}
+
+/* =============header start============== */
+
+header{
+  height: 70px;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  color:#474748;
+  background-color: white;
+}
+
+.logo{
+  width:160px;
+}
+
+.searchber{
+  font-size:1.4rem;
+  margin: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777a7e;
+  background-color: #f0f5ff;
+}
+
+.searchber i{
+  font-size:1.4rem;
+  margin:0px 10px;
+}
+
+.searchber input{
+  height:40px;
+  width:100%;
+  border:none;
+  outline:none;
+  background: transparent;
+  font-size: 1.1rem;
+  color:#E3E6FF;
+}
+
+.hiconcss{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 400;
+}
+
+.hiconcss i{
+  font-size:1.2rem;
+}
+
+div > .ldicon{
+  font-size: 0.7rem;
+}
+
+/* =============Catagory===================*/
+
+.catagory{
+  height:150px;
+  width: 150;
+  display:flex; 
+  align-items:center;
+  justify-content: space-evenly;
+  background-color: white;
+  margin: 10px 0px;
+  text-align: center;
+}
+
+.catimg img{
+  height: 70px;
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white; 
+  flex-direction: row;
+} 
+
+/*===============slider ===================*/
+
+.slidercontainer{
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider{
+  height: 240px;
+  width:100%;
+  /*background-image:  url(); if image is not applied in HTML */
+  position: relative;
+  display: center;
+  justify-content: space-evenly;
+}
+
+.slidericon{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sileft{
+  height:88px;
+  width: 40px;
+  color: #8b8b8b;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.siright{
+  height:88px;
+  width: 40px;
+  color: #8b8b8b;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.siimage img{
+  height: 240px;
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*============product section==============*/
+
+.productsection1{
+  height: 345px;
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+  gap: 15px;
+}
+/*
+.psright{
+  height: 345px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  background-color: white;
+}
+
+.psright img{
+  height: 320px;
+  width: 210px;
+} */
+
+.psleft{
+  height: 100%;
+  width: 100%;
+  background-color:#DFEDD6;
+}
+
+.productheader{
+  height: 80px;
+  width: 100%;
+  padding: 0px 0px;
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productheader h3{
+  color: #212121;
+}
+
+.productheader i{
+  height: 24px;
+  width: 24px;
+  color: white;
+  background-color: #1C41DC;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+}
+
+.product{
+  height: 250px;
+  width: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px groove #BDBDBD;
+  border-radius: 3px;
+  margin: 0px 8px;
+}
+
+.product img{
+  height: 125px;
+  width: 170px;
+  padding: 0px 10px;
+}
+
+.productinfo{
+  text-align: center;
+  margin: 30px;
+} 
+
+.productinfo p{
+  font-size: 0.9rem;
+}
+
+.productinfo h5{
+  color: #212121;
+  margin-top: 5px;
+}
+
+.productgroup{
+  display:flex;
+  overflow: hidden;
+  position:relative;
+}
+/*
+.productright{
+  position: center;
+  height: 88px;
+  width: 40px;
+  background-color: white;
+  color:#8b8b8b;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  top:32%;
+  right:5%;
+  -webkit-box-shadow: -2px 0px 3px 1px rgba(222, 222, 222, 1);
+  -moz-box-shadow: -2px 0px 3px 1px rgba(222, 222, 222, 1);
+  box-shadow: -2px 0px 3px 1px rgba(222, 222, 222, 1);
+}*/
+
+/*==========product section 2=============*/
+
+.productsection2{
+height: 345;
+width: 100%;
+margin-top:20px;
+display: flex;
+gap:15px;
+}
+
+.psleft2{
+  height: 100%;
+  width: 100%;
+  background-color: #E9EDD6;
+}
+
+
+/*===========product section 3============*/
+
+.productsection3{
+height: 345;
+width: 100%;
+margin-top:20px;
+display: flex;
+gap:15px;
+}
+
+.psleft3{
+  height: 100%;
+  width: 100%;
+  background-color: #D5B5E8;
+}
+
+/*=============directory link=============*/
+
+.branddirectory{
+  height: 520px;
+  width: 100%;
+  padding-top: 40px;
+  margin-top: 20px;
+  color: #565656;
+  background-color:#eeeeee;
+}
+
+.linkheader{
+  padding-left: 15px;
+}
+
+.directorylink{
+  margin-top: 15px;
+  padding-left: 15px;
+}
+
+.ddirectorylink span{
+  font-size:0.9rem;
+}
+
+.directorylink a{
+  font-size: 0.8rem;
+  color:#565656;
+}
+
+/*=================footer=================*/
+
+footer{
+  height: 320px;
+  width: 100%;
+  margin: auto;
+  background-color: #212121;
+}
+
+.footpara{
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+.footparainfo{
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  font-weight: 600;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.footparahead p{
+  font-size: 0.8rem;
+  color: #FFFFFF;
+}
+
+.footparainfo a{
+  color: white;
+}
+
+/*=======================================*/
+
+.footerbtm{
+  height: 70px;
+  width: 100%;
+  border-top:2px groove #454d5e;
+}
+
+.footbtmgroup{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  color: white;
+  padding: 0px 30px;
+}
+
+.space{
+  height: 200px;
+}
+
+
